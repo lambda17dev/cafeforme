@@ -515,3 +515,11 @@ kubectl exec -it httpie bin/bash
 ```
 http http://customer:8080/orderStatuses
 ```
+
+
+# 신규 조직 추가
+- 고객 : 고객 주문 오류를 최소화 한다. ( Core )
+- 매장 : 접수 된 주문에 대해 오류를 최소화 한다. ( Supporting )
+- 고객관리 : 주문 상태에 대해 고객에게 정확한 알람을 제공한다. ( 외주 Supporting )
+- 배달 : 배달 접수 된 주문에 대해 정확히 배달한다 ( Supporting )
+
