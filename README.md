@@ -531,3 +531,26 @@ http http://customer:8080/orderStatuses
 - 구현 계획 : 주문을 받을 때 '배달'을 선택 하고, '배달' 상품의 제작이 완료 되었을 때 배달을 수행한다
 ```
 
+## 이벤트 스토밍
+
+![image](https://user-images.githubusercontent.com/63624126/81883634-b3c52780-95d0-11ea-98c2-a897d573a517.png)
+
+
+## 헥사고날 아키텍처 변화
+
+
+
+## 구현
+
+```
+
+```
+
+
+## 운영과 Retirement
+
+```
+
+```
+
+
