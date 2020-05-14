@@ -523,6 +523,8 @@ http http://customer:8080/orderStatuses
 - 고객관리 : 주문 상태에 대해 고객에게 정확한 알람을 제공한다. ( 외주 Supporting )
 - 배달 : 배달 접수 된 주문에 대해 정확히 배달한다 ( Supporting )
 
+![image](https://user-images.githubusercontent.com/63624126/81880583-cb98ad80-95c8-11ea-86b2-71589cb2762c.png)
+
 ## 배달팀의 추가
 ```
 - KPI :
