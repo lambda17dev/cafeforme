@@ -538,16 +538,24 @@ http http://customer:8080/orderStatuses
 
 ## 헥사고날 아키텍처 변화
 
+![image](https://user-images.githubusercontent.com/63624126/81884842-ee7c8f00-95d3-11ea-93f9-0d9e3163dad9.png)
 
 
 ## 구현
 
-```
+기존의 마이크로 서비스에 영향을 최소화 하기 위해 Event 를 Pub/Sub으로 구현. 기존 마이크로 서비스에 대하여 아키텍처 관계없이 추가됨.
+배달을 위해서 주문정보에 pickup장소 및 배달지 정보를 추가 (매장, 배달)
 
+
+```
+cd atHome
+mvn spring-boot:run  
 ```
 
 
 ## 운영과 Retirement
+
+Request/Response 방식으로 구현하지 않았기 때문에 서비스가 더이상 불필요해져도 기존 마이크로 서비스에 어떤 영향도 주지 않음.
 
 ```
 
